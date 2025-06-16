@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="image/image/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Video Player</title>
+    <style>
+        .video-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+        html{
+            scrollbar-width: none; 
+        }
+        header {
+            background-color: #ffffff;
+            padding-top: 10px;
+            text-align: center;
+            
+        }
+        .university-title {
+            font-size: 1.6em;
+            color: #003366;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-text-container">
+            <div class="main-logo">
+                <img src="image/cost.jpg" width="150px"alt="CoST Logo - Technology. Innovation. Creativity.">
+            </div>
+            <div class="university-names">
+                <h1 class="university-title khmer-text">មហាវិទ្យាល័យវិទ្យាសាស្រ្ត និងបច្ចេកវិទ្យា</h1>
+                <h1 class="university-title">College of Science and Technology</h1>
+            </div>
+        </div>
+
+        <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="news.html" class="active">News</a></li>
+            <li><a href="faculty.html" class="active">Faculty Members</a></li>
+            <li><a href="training.html" class="active">Professional Training</a></li>
+            <li><a href="video.html" class="active">Videos CoST</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">Degree Programs <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="it.html" class="active">Information Technology</a>
+                    <a href="cs.html" class="active">Computer Science</a>
+                    <a href="etc.html" class="active">Electronics and Telecommunications</a>
+                    <a href="gdm.html" class="active">Graphic Design And Multimedia</a>
+                    <a href="bmit.html" class="active">Business Management Information Technology</a>
+                    <a href="necs.html" class="active">Network Engineering and Cyber Security</a>
+                    <a href="dsai.html" class="active">Data Science and Artificial Intelligence</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn">Computer Labs <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="lab1.html" class="active">Multimedia Lab</a>
+                    <a href="lab2.html" class="active">E-learning Lab</a>
+                    <a href="lab3.html" class="active">Networking Lab</a>
+                    <a href="lab4.html" class="active">IT Center Lab</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <center>
+        <div class="video-container">
+        <video width="1200" height="500" controls>
+            <source src="cost.mp4" type="video/mp4">
+            <source src="cost.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </center>
+    </div>
+    </section>
+    
+</body>
+</html>
